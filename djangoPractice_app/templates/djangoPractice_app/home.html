@@ -6,3 +6,11 @@
 <h1>
     Nice Landing Page! eh? <--- canadian
 </h1>
+
+<h1>NEw BaNanA</h1>
+
+<form method="POST">
+    {% csrf_token %}
+    {{ newBananaForm.as_p }}
+    <button type="submit" >Save</button>
+</form>
